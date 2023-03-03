@@ -101,7 +101,7 @@ void pop(levelorder_queue_t **head)
  * binary_tree_levelorder - Traverses a binary tree using
  *                          level-order traversal.
  * @tree: A pointer to the root node of the tree to traverse.
- * @func: A pointer to a function to call  each node.
+ * @func: A pointer to a function to  each node.
  */
 void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int))
 {
